@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charlie's Angels</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Top Bar -->
@@ -12,12 +13,18 @@
         <!-- End Nav Bar -->
     <!-- End Top Bar -->
 
-    <div class="topbar">
-      <nav>
-            <a href="#services">Services</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#team">Team</a>
-    </nav>  
+    <div class="topbar">   
+        <nav>
+            <div class="leftNav">
+                <a href="#home" id="home" >Charlie's Angels</a>
+            </div>
+            <div class="rightNav">
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#location">Location</a>
+            </div>
+
+        </nav>  
     </div>
 
 
@@ -27,7 +34,7 @@
         <!-- Button -->
     <!-- End Splash Bar -->
 
-   <section>
+   <section id=home>
         <img src="images/splashPage.jpeg" alt="pack of dogs">  
         <h2>Charlie's Angels</h2>
         <button type="button">Know More!</button>
@@ -37,7 +44,7 @@
         <!-- 2-6 Services -->
     <!-- End Products/Services Display -->
 
-   <section>
+   <section id="services">
        <!-- Service 1 -->
        <h2>Services</h2>
        <div class="servicesGrid"> 
@@ -65,7 +72,7 @@
         <!-- Full image -->
     <!-- End Gallery -->
 
-    <section>
+    <section id="gallery">
         <h2>Gallery</h2>
         <img src="images/dog1.jpeg" alt="Dog licking his nose">
         <img src="images/dog2.jpeg" alt="Dog reading a magazine with glasses">
@@ -97,6 +104,8 @@
         </footer>
     </section>
 
+    <p class="gt">This is para 1</p>
+    <p class="gt"> This is para 2 </p>
 
 </body>
 </html>

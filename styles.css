@@ -1,0 +1,15 @@
+nav{
+   display: flex;
+   justify-content: space-between;
+}
+
+div.rightNav{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+} 
+
+img {
+    width: 100%;
+
+}
