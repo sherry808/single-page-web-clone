@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway&display=swap');
 
+body {
+    margin: 0;
+}
+
 nav{
    display: flex;
    justify-content: space-between;
@@ -11,7 +15,7 @@ nav{
   min-height: 100vh;
   min-width: 100vw;
   background-position: center;
-  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
 }
 
