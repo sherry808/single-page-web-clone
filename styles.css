@@ -1,7 +1,7 @@
 :root {
-    font-size: 16;
-    font-family: "Raleway";
-  }
+  font-size: 16;
+  font-family: "Raleway";
+}
 
 body {
   margin: 0;
@@ -29,7 +29,7 @@ div.leftNav {
 div.rightNav {
   display: flex;
   width: 50%;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
   font-family: "Raleway"; /* Change font */
   font-size: 3vh;
@@ -80,11 +80,11 @@ div.services h3 {
 }
 
 div.services p {
-    font-size: 1em;
+  font-size: 1em;
 }
 
-div.services div{
-    padding-bottom: 1em;
+div.services div {
+  padding-bottom: 1em;
 }
 
 #services-grid {
@@ -106,12 +106,17 @@ div.services div{
 }
 
 @media screen and (min-width: 501px) {
-    div.hamburger{
-      display: none;
-    }
+  div.hamburger {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-device-width: 500px) {
+  .splash {
+    background-position: unset; /* resetting previous values */
+    background-attachment: unset;
+  }
+
   div.desktop-nav {
     display: none;
   }
@@ -119,12 +124,12 @@ div.services div{
     font-size: 5vh;
   }
   p {
-      font-size: 0.5em;
-      text-align: center;
+    font-size: 0.5em;
+    text-align: center;
   }
 
-  h2{
-      font-size: 1em;
+  h2 {
+    font-size: 1em;
   }
 
   div.services h3 {
@@ -170,16 +175,13 @@ div.services div{
 }
 
 footer {
-    font-size: 0.8em;
-    text-align: center;
-    position: relative;
-    width: 100%;
-    min-height: 50px;
-
+  font-size: 0.8em;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  min-height: 50px;
 }
 
-footer a:link{
-    color: black;
+footer a:link {
+  color: black;
 }
-
-
